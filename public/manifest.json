@@ -1,0 +1,15 @@
+{
+  "short_name": "Projeck Blog",
+  "name": "Creats Projeck Blog",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "800x800",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F380AB",
+  "background_color": "#F380AB"
+}

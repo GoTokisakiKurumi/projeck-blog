@@ -1,0 +1,17 @@
+.container.button-back {
+  z-index: 999;
+  position: fixed;
+  right: 25px;
+  bottom: 30px;
+}
+.button-back div {
+  color: #F596B8;
+  width: 55px;
+  height: 55px;
+  font-size: 20px;
+  line-height: 58px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:  0px 0px 5px #e8e8e8;
+}
