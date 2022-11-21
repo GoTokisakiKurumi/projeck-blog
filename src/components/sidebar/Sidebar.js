@@ -49,7 +49,6 @@ const Sidebar = ({ NavLink }) => {
           </div>
           <div className='social-media-aside'>
             <ul>
-              <li>{getButton}</li>
               <li className='mdui-ripple mdui-ripple-black'><BsGithub /></li>
               <li className='mdui-ripple mdui-ripple-black'><BsInstagram /></li>
               <li className='mdui-ripple mdui-ripple-black'><BsFacebook /></li>
