@@ -4,13 +4,13 @@ import { IconContext } from 'react-icons';
 import useButtonSide from '../../store/index';
 
 const Header = () => {
-  const setButton = useButtonSide((state) => state.setStatus)
+  const setButton = useButtonSide((state) => state.setStatus);
 
   return (
     <>
       <header className='container header'>
         <ul>
-          <li onClick={setButton}>
+          <li onClick={setButton} id='header'>
             <IconContext.Provider value={{ className: 'icon-button' }}>
               <BsList />
             </IconContext.Provider>

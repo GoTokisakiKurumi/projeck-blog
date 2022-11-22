@@ -1,26 +1,18 @@
 import './Sidebar.css';
-import {
-  BsHouse, BsExclamationCircle,
-  BsImage, BsHeart, BsGithub, BsInstagram,
-  BsFacebook, BsWhatsapp
-} from 'react-icons/bs';
+import { BsHouse, BsExclamationCircle, BsImage, BsHeart, BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import useButtonSide from '../../store/index';
 import { useEffect, useRef } from 'react';
 
 const Sidebar = ({ NavLink }) => {
   const getButton = useButtonSide((state) => state.status);
+  const removeButton = useButtonSide((state) => state.removeStatus);
   const asideRef = useRef();
 
   useEffect(() => {
-    if (getButton) {
-      asideRef.current.classList.add('active');
-    } else {
-      asideRef.current.classList.remove('active');
-    }
-    window.onscroll = () => {
-      asideRef.current.classList.remove('active');
-    }
+    getButton ? asideRef.current.classList.add('active') : asideRef.current.classList.remove('active');
+    window.onscroll = () => removeButton();
+    window.onclick = (event) => !event.target.parentElement.id ? removeButton() : false;
   })
 
   return (
@@ -42,10 +34,8 @@ const Sidebar = ({ NavLink }) => {
               </ul>
             </figcaption>
           </figure>
-          <div className='search-aside'>
-            <form action='' method='post'>
-              <input type='text' name='search' placeHolder='search' autoComplete='off' />
-            </form>
+          <div className='search-aside mdui-ripple mdui-ripple-black'>
+            <button>search</button>
           </div>
           <div className='social-media-aside'>
             <ul>
