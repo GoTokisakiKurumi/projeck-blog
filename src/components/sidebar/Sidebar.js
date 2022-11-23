@@ -2,9 +2,11 @@ import './Sidebar.css';
 import { BsHouse, BsExclamationCircle, BsImage, BsHeart, BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import useButtonSide from '../../store/index';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import Search from '../search/Search';
 
 const Sidebar = ({ NavLink }) => {
+  const [getStatusSearch, setStatusSearch] = useState(false);
   const getButton = useButtonSide((state) => state.status);
   const removeButton = useButtonSide((state) => state.removeStatus);
   const asideRef = useRef();
@@ -17,6 +19,7 @@ const Sidebar = ({ NavLink }) => {
 
   return (
     <>
+      {getStatusSearch ? <Search /> : false}
       <aside className='container aside' ref={asideRef} id='aside'>
         <div className='profile-aside'>
           <figure>
@@ -35,7 +38,7 @@ const Sidebar = ({ NavLink }) => {
             </figcaption>
           </figure>
           <div className='search-aside mdui-ripple mdui-ripple-black'>
-            <button>search</button>
+            <button onClick={() => getStatusSearch ? setStatusSearch(false) : setStatusSearch(true)}>search</button>
           </div>
           <div className='social-media-aside'>
             <ul>
