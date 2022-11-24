@@ -1,7 +1,7 @@
 import './Sidebar.css';
 import { BsHouse, BsExclamationCircle, BsImage, BsHeart, BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import useButtonSide from '../../store/index';
+import { useButtonSide, useUrlPathname } from '../../store/index';
 import { useEffect, useRef, useState } from 'react';
 import Search from '../search/Search';
 
@@ -9,17 +9,18 @@ const Sidebar = ({ NavLink }) => {
   const [getStatusSearch, setStatusSearch] = useState(false);
   const getButton = useButtonSide((state) => state.status);
   const removeButton = useButtonSide((state) => state.removeStatus);
+  const pathname = useUrlPathname((state) => state.setPath);
   const asideRef = useRef();
 
   useEffect(() => {
     getButton ? asideRef.current.classList.add('active') : asideRef.current.classList.remove('active');
-    window.onscroll = () => removeButton();
+    window.onscroll = () => { removeButton(); pathname(); }
     window.onclick = (event) => !event.target.parentElement.id ? removeButton() : false;
   })
 
   return (
     <>
-      {getStatusSearch ? <Search /> : false}
+      {getStatusSearch ? <Search setStatusSearch={setStatusSearch} /> : false}
       <aside className='container aside' ref={asideRef} id='aside'>
         <div className='profile-aside'>
           <figure>

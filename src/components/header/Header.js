@@ -1,7 +1,7 @@
 import './Header.css';
 import { BsList } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import useButtonSide from '../../store/index';
+import { useButtonSide } from '../../store/index';
 
 const Header = () => {
   const setButton = useButtonSide((state) => state.setStatus);
