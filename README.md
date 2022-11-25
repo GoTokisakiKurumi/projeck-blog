@@ -1,6 +1,5 @@
 
 <div>
-<img src="./src/images/thumbnails/thumbnail-2.png" width="300" align="right" />
 <br/>
 <img src="./src/images/thumbnails/thumbnail-1.png" width="500" />
 <br/>
