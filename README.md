@@ -5,20 +5,16 @@
 <br/>
 <br/>
   
-- Name **Reidho Satria**
+- Name **Lutfi Aulia Sidik**
 
-- Live in **Palembang, Indonesia**
+- Live in **Tasikmalaya, Singaparna**
 
-- Studying [***Computer And Network Engineering***](https://smkn4palembang.sch.id/)
+- Studying [***Teknik Komputer Dan Jaringan***](https://smkn4palembang.sch.id/)
 
-- Good with **Javascript** , **Typescript** , **PHP** , **Bash** , **CSS** , **HTML** and **Python**
+- Good with **Javascript** , **PHP** , **CSS** , **HTML** and **Python**
 
-- Have high experience with **Photoshop** and **CorelDRAW**
-  
-- Familiar with **Debian**, **Ubuntu**, **Fedora**, **Arch**, **Void** and **OpenSUSE**
-
-- Understand 日本語 (N5), Bahasa (Native), and English (Fluent)
-<img src="./img/Waifu-elainaa.png" width="300" align="right" />
+- Have high experience with **Mikrotik** and **Microsoft Word**
+  <img src="./img/Waifu-elainaa.png" width="300" align="right" />
 <br/>
 <img src="./img/Repo-elaina.png" width="500" />
 <br/>
