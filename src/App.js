@@ -1,8 +1,8 @@
-import Sidebar from './components/sidebar/Sidebar';
-import Header from './components/header/Header';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Waifu from './components/waifu/Waifu';
+import Sidebar from './components/app/sidebar/Sidebar';
+import Header from './components/app/header/Header';
+import Home from './components/app/home/Home';
+import About from './components/app/about/About';
+import Waifu from './components/app/waifu/Waifu';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 const App = () => {

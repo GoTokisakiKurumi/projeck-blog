@@ -1,10 +1,10 @@
 import './Sidebar.css';
 import { BsHouse, BsExclamationCircle, BsImage, BsHeart, BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
-import Button from '../buttonBack/ButtomBack';
 import { IconContext } from 'react-icons';
-import { useButtonSide, useUrlPathname } from '../../store/index';
+import { useButtonSide, useUrlPathname } from '../../../store/index';
 import { useEffect, useRef, useState } from 'react';
-import Search from '../search/Search';
+import Search from '../../fractions/search/Search';
+import Button from '../../fractions/buttonBack/ButtomBack';
 
 const Sidebar = ({ NavLink }) => {
   const [getStatusSearch, setStatusSearch] = useState(false);
@@ -26,7 +26,7 @@ const Sidebar = ({ NavLink }) => {
         <div className='profile-aside'>
           <figure>
             <div className='mdui-ripple mdui-ripple-black'>
-              <img src={require('../../images/profile/kurumi-avatar.png')} alt="" />
+              <img src={require('../../../images/profile/kurumi-avatar.png')} alt="" />
             </div>
             <figcaption>
               <ul>

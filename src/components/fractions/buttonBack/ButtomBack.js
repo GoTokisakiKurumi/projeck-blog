@@ -1,7 +1,7 @@
 import './ButtonBack.css';
 import { BsCaretUpFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import { useUrlPathname } from '../../store/index.js';
+import { useUrlPathname } from '../../../store/index.js';
 
 const ButtonBack = () => {
   const getPathname = useUrlPathname((state) => state.path);

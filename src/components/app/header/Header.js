@@ -1,7 +1,7 @@
 import './Header.css';
 import { BsList } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import { useButtonSide } from '../../store/index';
+import { useButtonSide } from '../../../store/index';
 
 const Header = () => {
   const setButton = useButtonSide((state) => state.setStatus);
@@ -15,7 +15,7 @@ const Header = () => {
               <BsList />
             </IconContext.Provider>
           </li>
-          <li><img src={require('../../images/profile/kurumi-avatar.png')} alt="" /></li>
+          <li><img src={require('../../../images/profile/kurumi-avatar.png')} alt="" /></li>
         </ul>
       </header>
     </>

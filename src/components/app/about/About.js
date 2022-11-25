@@ -8,7 +8,7 @@ const About = () => {
         <div className='container hero'>
           <figure>
             <div className='mdui-ripple mdui-ripple-black'>
-              <img src={require('../../images/thumbnails/thumbnail-1.png')} alt='' />
+              <img src={require('../../../images/thumbnails/thumbnail-1.png')} alt='' />
             </div>
             <figcaption>
               <ul>
