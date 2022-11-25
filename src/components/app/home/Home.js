@@ -16,6 +16,76 @@ const Home = () => {
             untuk membantu...
           </p>
         </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
+        <HeroPage thumbnails={thumbnails} />
+        <div className='container blog-text'>
+          <h1>5 top golang framework</h1>
+          <span></span>
+          <p>
+            Framework adalah sebuah kerangka kerja yang digunakan
+            untuk mengembangkan website. Framework ini diciptakan
+            untuk membantu...
+          </p>
+        </div>
       </section>
     </>
   )
