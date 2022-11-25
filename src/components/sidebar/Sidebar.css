@@ -3,11 +3,15 @@
   position: fixed;
   top: 0;
   width: 280px;
-  height: 100%;
+  height: 100vh;
   background: rgb(255, 255, 255);
   box-shadow:  2px -1px 10px rgb(0, 0, 0, .2);
   transition: all 1.8s ease;
   transform: translateX(-500px);
+  overflow: auto;
+}
+.container.aside::-webkit-scrollbar{
+  width: 0;
 }
 .container.aside.active {
   transform: translateX(0);
@@ -60,13 +64,12 @@
   padding: 14px 0;
   font-size: 15px;
   text-transform: capitalize;
-  box-shadow:  0px 0px 10px var(--background-default);
   border-radius: 10px;
   background: var(--background-default);
 }
 
 .social-media-aside {
-  margin: 15px 20px;
+  margin: 25px 20px;
   box-shadow: 0px 0px 5px #ECEFF4;
   border-radius: 10px;
 }

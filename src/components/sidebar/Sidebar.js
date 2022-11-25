@@ -1,5 +1,6 @@
 import './Sidebar.css';
 import { BsHouse, BsExclamationCircle, BsImage, BsHeart, BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
+import Button from '../buttonBack/ButtomBack';
 import { IconContext } from 'react-icons';
 import { useButtonSide, useUrlPathname } from '../../store/index';
 import { useEffect, useRef, useState } from 'react';
@@ -20,7 +21,7 @@ const Sidebar = ({ NavLink }) => {
 
   return (
     <>
-      {getStatusSearch ? <Search setStatusSearch={setStatusSearch} /> : false}
+      {getStatusSearch ? <Search setStatusSearch={setStatusSearch} /> : <Button />}
       <aside className='container aside' ref={asideRef} id='aside'>
         <div className='profile-aside'>
           <figure>

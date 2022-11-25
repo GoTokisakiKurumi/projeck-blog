@@ -1,8 +1,8 @@
+import Sidebar from './components/sidebar/Sidebar';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Sidebar from './components/sidebar/Sidebar';
-import Button from './components/buttonBack/ButtomBack';
+import Waifu from './components/waifu/Waifu';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 
 const App = () => {
@@ -15,9 +15,8 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/album' element='<h1>album</h1>' />
-          <Route path='/waifu' element='<h1>waifu</h1>' />
+          <Route path='/waifu' element={<Waifu />} />
         </Routes>
-        <Button />
       </BrowserRouter>
     </>
   );

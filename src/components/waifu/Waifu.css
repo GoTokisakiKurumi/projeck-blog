@@ -1,0 +1,37 @@
+.container.waifu {
+  padding: 30px 20px;
+}
+.container.hero {
+  margin: 0 0 45px;
+}
+.container.hero figure img {
+  display: block;
+  width: calc(100% - 6px);
+  border: 3px solid #eee;
+  border-radius: 20px;
+}
+.container.hero figcaption > ul {
+  display: flex;
+  gap: 0 5px;
+  flex-wrap: wrap;
+}
+.container.hero figcaption > ul li {
+  margin: 10px 0 0;
+}
+.container.hero figcaption > ul li button {
+  display: flex;
+  gap: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #FFE4E9;
+  border-radius: 25px;
+}
+.container.hero figcaption > ul li:nth-child(1) button {
+  color: var(--background-default);
+}
+.container.hero figcaption > ul li:nth-child(2) button {
+  color: #4C8CC7;
+}
+.container.hero figcaption > ul li:nth-child(3) button {
+  color: #61A886;
+}
