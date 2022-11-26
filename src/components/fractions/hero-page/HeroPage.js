@@ -12,7 +12,7 @@ const HeroPage = ({ thumbnails }) => {
           <figcaption>
             <ul>
               <li><button><BsCalendar /><p>2022/10/31</p></button></li>
-              <li><button><BsPerson /><p>251 Author: Lutfi</p></button></li>
+              <li><button><BsPerson /><p>251 Author: kurumi</p></button></li>
               <li><button><BsClock /><p>Viewed 15 Minutes Ago</p></button></li>
             </ul>
           </figcaption>

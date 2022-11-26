@@ -1,10 +1,10 @@
 import './Sidebar.css';
 import { BsHouse, BsExclamationCircle, BsImage, BsHeart, BsGithub, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import { useButtonSide, useUrlPathname } from '../../../store/index';
-import { useEffect, useRef, useState } from 'react';
 import Search from '../../fractions/search/Search';
 import Button from '../../fractions/buttonBack/ButtomBack';
+import { useButtonSide, useUrlPathname } from '../../../store/index';
+import { useEffect, useRef, useState } from 'react';
 
 const Sidebar = ({ NavLink }) => {
   const [getStatusSearch, setStatusSearch] = useState(false);
