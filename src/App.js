@@ -5,6 +5,7 @@ import About from './components/app/about/About';
 import Album from './components/app/album/Album';
 import Waifu from './components/app/waifu/Waifu';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import './App.css';
 
 const App = () => {
   return (
