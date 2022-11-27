@@ -1,5 +1,5 @@
 import './Album.css';
-import HeroPage from '../../fractions/hero-page/HeroPage';
+import { HeroPage } from '../../fractions/index';
 import thumbnails from '../../../images/thumbnails/thumbnail-1.png';
 
 const Album = () => {

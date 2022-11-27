@@ -1,9 +1,4 @@
-import Sidebar from './components/app/sidebar/Sidebar';
-import Header from './components/app/header/Header';
-import Home from './components/app/home/Home';
-import About from './components/app/about/About';
-import Album from './components/app/album/Album';
-import Waifu from './components/app/waifu/Waifu';
+import { Sidebar, Header, Home, About, Album, Waifu } from './components/app/index';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
 
