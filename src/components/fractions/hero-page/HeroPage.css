@@ -1,6 +1,9 @@
 .container.hero {
   margin: 0 0 45px;
 }
+.container.hero figure > div {
+  border-radius: 20px;
+}
 .container.hero figure img {
   display: block;
   width: calc(100% - 6px);

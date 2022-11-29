@@ -1,3 +1,17 @@
 .container.waifu {
   padding: 30px 20px;
 }
+.profile-waifu figure {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.profile-waifu figure div {
+  border-radius: 10px;
+}
+.profile-waifu figure div img {
+  display: block;
+  width: 155px;
+  border-radius: 10px;
+}
+

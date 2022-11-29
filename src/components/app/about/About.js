@@ -16,7 +16,7 @@ const About = () => {
           <p>
             Nama saya adalah <span>Lutfi Aulia Sidik</span> dari kota <span>Tasikmalaya </span>
             saya lahir tanggal <span>20 april 2005</span>, Saya adalah pembuat/pengembang website ini 😄,
-            website ini sendiri tampilan nya terinsfirasi dari website <span><a href='https://www.sazumiviki.com/'></a>sazumiviki.com</span>
+            website ini sendiri tampilan nya terinsfirasi dari website <span><a href='https://www.sazumiviki.com/'>sazumiviki.com</a></span>
           </p>
           <p>
             Saya memiliki cita cita untuk mencari tujuan dari hidup ini,

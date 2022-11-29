@@ -7,7 +7,7 @@ const HeroPage = ({ thumbnails }) => {
       <div className='container hero'>
         <figure>
           <div className='mdui-ripple mdui-ripple-black'>
-            <img src={thumbnails} alt='' />
+            <img src={thumbnails} alt='' loading='lazy' />
           </div>
           <figcaption>
             <ul>

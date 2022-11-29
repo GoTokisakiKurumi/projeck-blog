@@ -4,6 +4,7 @@ import Home from './home/Home';
 import About from './about/About';
 import Album from './album/Album';
 import Waifu from './waifu/Waifu';
+import Ai from './waifu/AI/Ai';
 
 export {
   Sidebar,
@@ -11,5 +12,6 @@ export {
   Home,
   About,
   Album,
-  Waifu
+  Waifu,
+  Ai
 }
